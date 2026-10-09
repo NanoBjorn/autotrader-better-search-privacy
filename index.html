@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Autotrader Better Search</title>
+<style>
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+         max-width: 720px; margin: 48px auto; padding: 0 20px; color: #1d1d1f; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  .updated { color: #6e6e73; font-size: 14px; margin-bottom: 32px; }
+  h2 { font-size: 19px; margin-top: 36px; }
+  code { background: #f2f2f2; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+  a { color: #0071e3; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for Autotrader Better Search</h1>
+<p class="updated">Last updated: 2026-10-09</p>
+
+<p>Autotrader Better Search is a Chrome extension that overlays interactive market-distribution
+charts (price, mileage, year, body type, and other facets) on top of AutoTrader UK's own search
+results pages, and lets you filter your search by clicking or dragging a chart bar.</p>
+
+<h2>What Data We Collect</h2>
+<p>The extension does not collect, store, or transmit any personal data about you. It reads
+data that AutoTrader UK's own search-results page already displays publicly to you
+(listing prices, mileage, year, body type, and similar facet counts) purely in order to draw
+the charts. It does not read your AutoTrader account, your browsing history on other sites,
+or any personal or financial information.</p>
+
+<p>The extension also stores a small set of your own UI preferences — which charts you've
+chosen to show, each chart window's position and size, whether you've hidden sponsored listing
+cards, and whether "developer mode" (see below) is turned on.</p>
+
+<h2>How Data Is Stored</h2>
+<p>All of the above is stored locally on your device only, using Chrome's
+<code>chrome.storage.local</code> API. It is never synced to Google's servers
+(<code>chrome.storage.sync</code> is not used) and never leaves your device by default.</p>
+
+<h2>How Data Is Used</h2>
+<p>Page data is used solely to render the on-page charts and to apply the search filters you
+select. Your stored preferences are used solely to restore your chart layout and settings the
+next time you visit AutoTrader.</p>
+
+<h2>Optional Developer Mode</h2>
+<p>The extension includes an off-by-default "developer mode" toggle in its popup. If — and only
+if — you explicitly turn this on, the extension will also send the same normalized market data
+to a local server running on your own computer, at <code>http://localhost:8787</code>, so you
+can analyze it yourself. This data never travels further than your own machine: it is not sent
+to the developer of this extension or to any third party. Turning developer mode back off
+immediately revokes the extension's permission to contact that local server.</p>
+
+<h2>Third-Party Services</h2>
+<p>This extension does not use any third-party services, analytics, or tracking of any kind.</p>
+
+<h2>Data Sharing</h2>
+<p>No data collected or read by this extension is shared with any third party.</p>
+
+<h2>Data Retention and Deletion</h2>
+<p>Stored preferences remain in Chrome's local extension storage until you remove them.
+Uninstalling the extension, or clearing its storage via
+<code>chrome://extensions</code>, deletes all of it. Nothing is retained anywhere else, since
+nothing is sent anywhere else.</p>
+
+<h2>User Controls</h2>
+<p>You can change or clear any stored preference at any time from the extension's popup, or
+remove all of it at once by uninstalling the extension.</p>
+
+<h2>Changes to This Policy</h2>
+<p>If this extension's data practices change, this page will be updated and the "Last updated"
+date above will be revised accordingly.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy can be sent to
+<a href="mailto:glebnovikov98@gmail.com">glebnovikov98@gmail.com</a>.</p>
+
+</body>
+</html>
